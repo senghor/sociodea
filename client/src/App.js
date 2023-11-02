@@ -12,7 +12,6 @@ function App() {
         <Route path='/profile/:id' element={<ProfilePage />} />
       </Routes>
     </BrowserRouter>
-    </div>
-  
+  </div> 
 }
 export default App;
