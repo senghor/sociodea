@@ -24,6 +24,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { setMode, setLogout,  } from 'state'
 import { useNavigate } from 'react-router-dom'
 import FlexBetween from 'components/FlexBetween'
+import { brand } from 'constants'
 
 const Navbar = () => {
     const [isMobileMenuToggled, setIsMobileMenuToggled] = useState(false)
@@ -55,7 +56,7 @@ const Navbar = () => {
                     }
                 }}
             >
-                Sociodea
+                {brand}
             </Typography>
             {isNonMobileScreens && (
                 <FlexBetween backgroundColor={neutralLight} borderRadius='9px' gap='3rem' padding='0.1rem 1.5rem'>
