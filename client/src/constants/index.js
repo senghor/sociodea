@@ -1,2 +1,2 @@
-export const brand = 'Mugizi Social'
+export const brand = 'BEFRIEND'
 export const server = 'http://localhost:3001'
