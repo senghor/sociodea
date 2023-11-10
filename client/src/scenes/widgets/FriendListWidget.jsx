@@ -52,5 +52,3 @@ const FriendListWidget = ( { userId } ) => {
 }
 
 export default FriendListWidget
-
-//continue at 05:18:32

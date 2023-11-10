@@ -29,7 +29,7 @@ const AdvertWidget = () => {
                 <Typography color={medium}>mugiziair.com</Typography>
             </FlexBetween>
             <Typography color={medium} margin='0.5rem 0'>
-            Luxurious and cheap air travel services with destinations in all cities around the globe
+            Luxurious and affordable air travel services with destinations in all cities around the globe
             </Typography>
         </WidgetWrapper>
     )
