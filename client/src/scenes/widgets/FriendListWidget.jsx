@@ -32,6 +32,7 @@ const FriendListWidget = ( { userId } ) => {
             color={palette.neutral.dark}
             variant='h5'
             fontWeight='500'
+            sx={{ marginBottom: "1.5rem" }}
         >
             Friend List
         </Typography>
